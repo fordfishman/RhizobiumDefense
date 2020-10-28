@@ -1,4 +1,3 @@
-from tqdm import tqdm
 import argparse
 
 # parse args
