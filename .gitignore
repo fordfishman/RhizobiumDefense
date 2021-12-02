@@ -1,2 +1,3 @@
 *.sr
 *.fasta
+*cas_blast.o*
