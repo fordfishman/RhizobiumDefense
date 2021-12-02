@@ -16,7 +16,7 @@ with open(filename, 'r') as r:
 # make into fasta entry
 parts = consensus_sr.split('\t')
 header = parts[0]
-seq = parts[1].replace("-","")
+seq = parts[1]
 
 # append output fasta
 with open(output, 'a+') as f: 
